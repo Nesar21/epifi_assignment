@@ -37,8 +37,8 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 @app.get("/about")
 def about():
     return {
-        "name": "YOUR_NAME_HERE",
-        "email": "YOUR_EMAIL_HERE",
+        "name": "Nesar",
+        "email": "nesar21@github.com",
         "my features": {
             "Note Version History": (
                 "Every edit to a note automatically saves the previous version. "
